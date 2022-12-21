@@ -395,6 +395,7 @@ and (max-device-width: 2340px) {
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
+    margin: 0px -15px;
   }
   .scroller {
     width: 10px;
