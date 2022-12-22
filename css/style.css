@@ -502,7 +502,7 @@ and (max-device-width: 2340px) {
 @media (min-width: 980px) and (max-width: 1684px) {
     .scroll-downs {
         position: absolute;
-        top: 1300px;
+        top: 1250px;
         right: 0;
         bottom: 0px;
         left: -35px;
