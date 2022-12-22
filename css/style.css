@@ -395,7 +395,6 @@ and (max-device-width: 2340px) {
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
-    margin: 0px -15px;
   }
   .scroller {
     width: 10px;
@@ -492,6 +491,18 @@ and (max-device-width: 2340px) {
     .scroll-downs {
         position: absolute;
         top: 1450px;
+        right: 0;
+        bottom: 0px;
+        left: 0;
+        margin: auto;
+        width: 34px;
+        height: 55px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1684px) {
+    .scroll-downs {
+        position: absolute;
+        top: 1300px;
         right: 0;
         bottom: 0px;
         left: 0;
@@ -645,8 +656,6 @@ and (max-device-width: 2340px) {
         font-weight: 600;
     }
 }
-
-
 @media (min-width: 390px) and (max-width: 786px) {
     .about_area .about-caption ul li{
         margin: 20px 40px 0px;
@@ -801,7 +810,7 @@ and (max-device-width: 2340px) {
             font-weight: 600;
         }
   }
-  @media (min-width: 1440px) and (max-width: 1915px){
+@media (min-width: 1440px) and (max-width: 1915px){
     
     .about_area .row .main_title p{
         margin-top: 20px;
@@ -816,7 +825,7 @@ and (max-device-width: 2340px) {
         font-weight: 600;
     }
 }
-  @media (min-width: 1915px) and (max-width: 2560px){
+@media (min-width: 1915px) and (max-width: 2560px){
     
     .about_area .row .main_title p{
         margin-top: 20px;
@@ -1210,6 +1219,33 @@ and (max-device-width: 2340px) {
         width: 350px;
         height: 240px;
         margin-left: -50px;
+    }
+    .right_content .journeypic5{
+        width: 350px;
+        height: 240px;
+        margin-left: -60px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1684px) {
+    .right_content .journeypic1{
+        width: 350px;
+        height: 240px;
+        margin-left: -60px;
+    }
+    .right_content .journeypic2{
+        width: 350px;
+        height: 240px;
+        margin-left: 0px;
+    }
+    .right_content .journeypic3{
+        width: 350px;
+        height: 240px;
+        margin-left: -60px;
+    }
+    .right_content .journeypic4{
+        width: 350px;
+        height: 240px;
+        margin-left: 0px;
     }
     .right_content .journeypic5{
         width: 350px;
