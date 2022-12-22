@@ -502,7 +502,7 @@ and (max-device-width: 2340px) {
 @media (min-width: 980px) and (max-width: 1684px) {
     .scroll-downs {
         position: absolute;
-        top: 1250px;
+        top: 1300px;
         right: 0;
         bottom: 0px;
         left: -35px;
@@ -1653,6 +1653,11 @@ and (max-device-width: 2340px) {
 
 
 /*** Testimonial ***/
+#testimonial{
+    max-width: 100%; 
+    height: auto; 
+    background: url(../img/home-banner.png);
+}
 .testimonial{
     text-align:center;margin: 50px 0px 0px;
     font-family: 'Poppins', sans-serif;
@@ -1789,8 +1794,6 @@ and (max-device-width: 2340px) {
         font-weight: 600;
     }
 }
-
-
 @media (min-width: 390px) and (max-width: 786px) {
     .info-caption ul li{
         margin: 20px 40px 0px;
@@ -1885,7 +1888,7 @@ and (max-device-width: 2340px) {
             font-weight: 600;
         }
   }
-  @media (min-width: 1440px) and (max-width: 1915px){
+@media (min-width: 1440px) and (max-width: 1915px){
     
     .info-caption ul li{
         margin: 20px 100px 15px;
@@ -1894,7 +1897,7 @@ and (max-device-width: 2340px) {
         font-weight: 600;
     }
 }
-  @media (min-width: 1915px) and (max-width: 2560px){
+@media (min-width: 1915px) and (max-width: 2560px){
     
     .info-caption ul li{
         margin: 20px 90px 15px;
