@@ -118,7 +118,7 @@
         smartSpeed: 1000,
         items: 1,
         dots: true,
-        loop: true,
+        loop: false,
     });
 
     
