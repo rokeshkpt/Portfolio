@@ -116,7 +116,7 @@
     $(".testimonial-carousel").owlCarousel({
         autoplay: false,
         smartSpeed: 1000,
-        items: 1,
+        items: 0,
         dots: true,
         loop: false,
     });
